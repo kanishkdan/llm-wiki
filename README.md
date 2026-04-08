@@ -132,7 +132,7 @@ The ingest script parses the Twitter archive format automatically. It extracts o
 
 ### X Bookmarks
 
-If you use [ft-cli](https://github.com/nichochar/ft-cli) to sync your X bookmarks:
+If you use [ft-cli](https://github.com/afar1/fieldtheory-cli) to sync your X bookmarks:
 
 1. Your bookmarks are at `~/.ft-bookmarks/bookmarks.jsonl`
 2. The ingest script automatically finds and processes them -- no manual copying needed
