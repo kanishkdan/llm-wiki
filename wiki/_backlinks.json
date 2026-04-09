@@ -1,5 +1,7 @@
 {
-  "concepts/llm-knowledge-bases": ["concepts/file-over-app", "concepts/wikilinks"],
-  "concepts/file-over-app": ["concepts/llm-knowledge-bases", "concepts/wikilinks"],
-  "concepts/wikilinks": ["concepts/llm-knowledge-bases", "concepts/file-over-app"]
+  "concepts/digital-operator": ["projects/openclaw"],
+  "projects/openclaw": ["concepts/digital-operator"],
+  "strategies/sales": ["concepts/product-feedback", "philosophies/belief-system", "projects/pointscasa"],
+  "concepts/product-feedback": ["strategies/sales", "projects/pointscasa"],
+  "projects/pointscasa": ["strategies/sales", "concepts/product-feedback"]
 }

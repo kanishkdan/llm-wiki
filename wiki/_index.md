@@ -1,8 +1,15 @@
-# Wiki Index
+# Index
 
+## Philosophies
+- [[belief-system|Belief System]]
 
 ## Concepts
+- [[concepts/digital-operator|Digital Operator]]
+- [[concepts/product-feedback|Product Feedback]]
 
-- [[concepts/llm-knowledge-bases]] — also: llm wiki, personal knowledge base, karpathy wiki
-- [[concepts/file-over-app]] — also: file over app philosophy, file-first, local-first
-- [[concepts/wikilinks]] — also: wiki links, backlinks, cross-references, double brackets
+## Projects
+- [[projects/openclaw|OpenClaw]]
+- [[projects/pointscasa|PointsCasa]]
+
+## Strategies
+- [[strategies/sales|Sales Strategy]]
