@@ -1,0 +1,25 @@
+
+> llm-wiki@1.0.0 start
+> next start
+
+   ▲ Next.js 15.4.10
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.1.11:3001
+
+ ✓ Starting...
+ ✓ Ready in 232ms
+EvalError: Code generation from strings disallowed for this context
+    at <unknown> (.next/server/middleware.js:623)
+    at (middleware)/./node_modules/next/dist/build/webpack/loaders/next-middleware-loader.js?absolutePagePath=%2FUsers%2Fkanishkrazdan%2F.openclaw%2Fworkspace%2Fllm-wiki%2Fmiddleware.ts&page=%2Fmiddleware&rootDir=%2FUsers%2Fkanishkrazdan%2F.openclaw%2Fworkspace%2Fllm-wiki&matchers=&preferredRegion=&middlewareConfig=e30%3D! (.next/server/middleware.js:623:1)
+    at __webpack_require__ (.next/server/edge-runtime-webpack.js:37:33)
+    at __webpack_exec__ (.next/server/middleware.js:1615:48)
+    at <unknown> (.next/server/middleware.js:1616:37)
+    at webpackJsonpCallback (.next/server/edge-runtime-webpack.js:1128:39)
+    at <unknown> (.next/server/middleware.js:9:61)
+TypeError: (0 , react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV) is not a function
+    at App (webpack-internal:///(pages-dir-node)/./pages/_app.tsx:19:96)
+ ⨯ TypeError: (0 , react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV) is not a function
+    at App (webpack-internal:///(pages-dir-node)/./pages/_app.tsx:19:96)
+ ⨯ TypeError: (0 , react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV) is not a function
+    at App (webpack-internal:///(pages-dir-node)/./pages/_app.tsx:19:96)
+ ⨯ [Error: Invariant: did not expect response writer to be written to for upgrade request]

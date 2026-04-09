@@ -8,7 +8,28 @@
    - Environments: .env.local
 
  ✓ Starting...
- ✓ Ready in 1440ms
- ✓ Compiled /middleware in 151ms (160 modules)
- ○ Compiling /wiki/[...slug] ...
-[?25h
+ ✓ Ready in 1407ms
+ ✓ Compiled /middleware in 170ms (160 modules)
+ ✓ Compiled /wiki in 391ms (372 modules)
+`legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:
+
+npx @next/codemod@latest new-link .
+
+Learn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components
+ GET /wiki 200 in 576ms
+ ⚠ Cross origin request detected from 127.0.0.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /wiki/[...slug] in 164ms (380 modules)
+`legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:
+
+npx @next/codemod@latest new-link .
+
+Learn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components
+Warning: A title element received an array with more than 1 element as children. In browsers title Elements can only have Text Nodes as children. If the children being rendered output more than a single text node in aggregate the browser will display markup and comments as text in the title and hydration will likely fail and fall back to client rendering
+    at title
+    at head
+    at Head (/Users/kanishkrazdan/.openclaw/src/pages/_document.tsx:425:8)
+    at html
+    at Html (/Users/kanishkrazdan/.openclaw/src/pages/_document.tsx:1163:7)
+    at Document (/Users/kanishkrazdan/.openclaw/src/pages/_document.tsx:1195:16)
+ GET /_next/data/development/wiki/strategies/sales.json?slug=strategies&slug=sales 200 in 581ms

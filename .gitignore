@@ -10,16 +10,16 @@ out/
 .env*.local
 
 # data (user's raw source files)
-data/writing/*.md
-data/writing/*.epub
-data/tweets/*.js
-data/tweets/*.json
+# data/writing/*.md
+# data/writing/*.epub
+# data/tweets/*.js
+# data/tweets/*.json
 
 # generated content
-raw/entries/*.md
-outputs/*.md
-wiki/**/*.md
-wiki/_*.json
+# raw/entries/*.md
+# outputs/*.md
+# wiki/**/*.md
+# wiki/_*.json
 
 # misc
 .DS_Store
